@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <h1>Sum Calculator</h1>
       <input type="number" id="input" onChange={handleSum} />
-      <p id="sum">{sum}</p>
+      <p id="sum">Sum: {sum}</p>
     </div>
   );
 };
